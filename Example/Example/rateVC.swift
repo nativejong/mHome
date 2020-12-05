@@ -20,35 +20,18 @@ class rateVC: UIViewController {
         rate = mHome(frame: CGRect.zero)
         self.view.addSubview(rate!)
         self.view.backgroundColor = UIColor.red
-
-//        self.rate?.clear()
-//
-//        self.rate?.addIt("Apple",
-//                         address: "One Infinite Loop",
-//                         city: "Cupertino, CA 95014",
-//                         email: "native.jong@gmail.com",
-//                         lat: "37.334722",
-//                         lng: "-122.008889",
-//                         phone: "1 408-606-5775",
-//                         web: "www.site.com")
-//
-//        self.rate?.addIt("Maya 2",
-//                         address: "1600 Amphitheatre Parkway",
-//                         city: "Mountain View, California",
-//                         email: "native.jong@gmail.com",
-//                         lat: "18.802048823805322",
-//                         lng: "98.96701371992492",
-//                         phone: "1.800.123.4567",
-//                         web: "www.site.com")
-//
-//
-//        self.rate?.refresh()
+    }
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.insertData()
     }
     
     func insertData() {
-        rate?.addDscr("")
-        rate?.addLogo("", date: nil, loca: nil)
-        rate?.addPhoto("", date: nil, loca: nil)
+        rate?.addDscr("Hello")
+        rate?.addLogo("https://raw.githubusercontent.com/nativejong/mHome/main/images/japangirl.jpg", date: nil)
+        rate?.addPhoto("https://raw.githubusercontent.com/nativejong/mHome/main/images/japan.png", date: nil)
         rate?.refresh()
     }
     
