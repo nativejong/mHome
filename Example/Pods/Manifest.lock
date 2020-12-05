@@ -1,0 +1,21 @@
+PODS:
+  - mHome (1.1.1)
+
+DEPENDENCIES:
+  - mHome (from `https://github.com/nativejong/mHome.git`)
+
+EXTERNAL SOURCES:
+  mHome:
+    :git: https://github.com/nativejong/mHome.git
+
+CHECKOUT OPTIONS:
+  mHome:
+    :commit: da94d727ebb9fd4b3ad24381cf2a0f5e837f458c
+    :git: https://github.com/nativejong/mHome.git
+
+SPEC CHECKSUMS:
+  mHome: 0c9fa07bb4cea3b7fdacee16c36b68c69c82e56d
+
+PODFILE CHECKSUM: 64157d14f8b902d94dfc0a04fababfab518b139a
+
+COCOAPODS: 1.9.3
