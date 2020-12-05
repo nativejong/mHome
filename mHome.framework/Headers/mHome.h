@@ -27,8 +27,8 @@ FOUNDATION_EXPORT const unsigned char mHomeVersionString[];
 - (NSString*) fetchDscr;
 
 - (void) addDscr:(nullable NSString*)d;
-- (void) addPhoto:(nullable NSString*)u date:(nullable NSString*)d loca:(nullable NSString*)f;
-- (void) addLogo:(nullable NSString*)u date:(nullable NSString*)d loca:(nullable NSString*)f;
+- (void) addPhoto:(nullable NSString*)u date:(nullable NSString*)d;
+- (void) addLogo:(nullable NSString*)u date:(nullable NSString*)d;
 - (void) refresh;
 - (void) addFilter:(nullable UIColor*) c alp:(float) a;
 

@@ -4,9 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/CHome.h</key>
+		<data>
+		C6Tg0zEOM7JV+NRoyGCPsdqVaNk=
+		</data>
+		<key>Headers/CIcon.h</key>
+		<data>
+		OvSHd3gt3nn1UlTcARdn5HmdloA=
+		</data>
+		<key>Headers/CPhoto.h</key>
+		<data>
+		oe0IsnG50X/6nLi3mSI+MfWUnm4=
+		</data>
+		<key>Headers/CPhotoCell.h</key>
+		<data>
+		JzBGhaUyiy9CTrmolyLNC8A6h/Q=
+		</data>
+		<key>Headers/CPhotoLoad.h</key>
+		<data>
+		j2I/gh8+TEjLk4whBHxR5AjA7HM=
+		</data>
 		<key>Headers/mHome.h</key>
 		<data>
-		ueB54gEz/NBQHp7CuT4JNxSehg0=
+		nEtT82nuhjGewjf4cZJoycpT9qM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -19,11 +39,46 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/CHome.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kAH6MxtiHA1yZlESvsV8efRKNPeVRXBEeH1HOeIYKv4=
+			</data>
+		</dict>
+		<key>Headers/CIcon.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uH8d2f0Z+5LaFmZCSOqLl08VlFlIPf8LYLaxpoIezi4=
+			</data>
+		</dict>
+		<key>Headers/CPhoto.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M1x842jCsHiqPo6hqd12MfkfBtJUKUil/IYSLEvAyMw=
+			</data>
+		</dict>
+		<key>Headers/CPhotoCell.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rHnibnuHbdQejjlfTDwd32w5gzi++BDt97n6JA1clTo=
+			</data>
+		</dict>
+		<key>Headers/CPhotoLoad.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2khjIEqLM1yzG+dUHpXEwu0Pno0vVajjr6p0C1wzet4=
+			</data>
+		</dict>
 		<key>Headers/mHome.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6w9tBqM9fjm1koWteS6ao7LREpdiEFHp6TjQwOV7+HQ=
+			v0R4XDHcXFoUU3/p2XYylqtgUnDW6WbEi+5oktcseJw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
