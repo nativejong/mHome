@@ -7,6 +7,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "CPhoto.h"
+#import "CPhotoLoad.h"
+#import "CIcon.h"
 
 //! Project version number for mHome.
 FOUNDATION_EXPORT double mHomeVersionNumber;
@@ -15,16 +18,18 @@ FOUNDATION_EXPORT const unsigned char mHomeVersionString[];
 
 @interface mHome : UIView
 
-//@property (nonatomic, retain) MKMapView *mapView;
-//@property (nonatomic, retain) CQRRead *qrRead;
-//@property (nonatomic, retain) CQRGen *qrGen;
-//@property (nonatomic, retain) UISegmentedControl *customSC;
-//
-//@property (nonatomic, retain) CKontact *kontact;
-//- (void)addIt:(NSString*)nm address:(NSString*)a city:(NSString*)c email:(NSString*)e lat:(NSString*)lt lng:(NSString*)lg phone:(NSString*)p web:(NSString*)w;
-//
-//- (void)refresh;
-//- (void)clear;
-//- (void) showQR;
+@property (nonatomic, retain) UIImageView *logo;
+@property (nonatomic, retain) UITextView *dscr;
+@property (nonatomic, retain) CPhoto *cimg;
+@property (nonatomic, retain) UIButton *editBtn;
+@property (nonatomic, retain) UIButton *filter;
+
+- (NSString*) fetchDscr;
+
+- (void) addDscr:(nullable NSString*)d;
+- (void) addPhoto:(nullable NSString*)u date:(nullable NSString*)d loca:(nullable NSString*)f;
+- (void) addLogo:(nullable NSString*)u date:(nullable NSString*)d loca:(nullable NSString*)f;
+- (void) refresh;
+- (void) addFilter:(nullable UIColor*) c alp:(float) a;
 
 @end
